@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #F4F4F4;
 }
 
 a {
@@ -27,12 +27,10 @@ a {
 
 strong, .shadow {
   color: #fff;
-  -webkit-text-stroke: 0.5px black;
 }
 
 .shadow2 {
   color: #fff;
-  -webkit-text-stroke: .25px rgba(0, 0, 0, 1);
 }
 
 a:hover {
@@ -75,13 +73,13 @@ section {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #F4F4F4;
   background: #F03300;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
+  color: #F4F4F4;
   background: #F03300;
   text-shadow: none;
 }
@@ -98,7 +96,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #F4F4F4;
   font-family: 'Alegreya Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -149,7 +147,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #F4F4F4;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -160,11 +158,11 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #F4F4F4;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: #F4F4F4;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #A32300;
@@ -253,7 +251,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: #F4F4F4;
   background: rgba(255, 74, 25, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -311,6 +309,13 @@ header.masthead p {
   border: none;
   border-radius: 300px;
   font-family: 'Alegreya Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
+  background-color: #F4F4F4;
+}
+
+.btn:hover{
+  color: #A32300;
+  background-color: #DEDEDE;
 }
 
 .btn-xl {
@@ -323,10 +328,14 @@ header.masthead p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: #F4F4F4;
   background-color: #ee4b28 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.circle-rounded {
+  height: ;
 }
