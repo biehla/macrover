@@ -94,6 +94,21 @@ img::-moz-selection {
   background: transparent;
 }
 
+header.masthead {
+  padding-top: 10em;
+  background-image: url("../img/header-dark.png");
+  background-position: center right;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #F4F4F4;
@@ -180,20 +195,16 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
-  padding-top: 10em;
-  background-image: url("../img/header-dark.png");
-  background-position: center right;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+@media (max-width: 500px) {
+    header.masthead {
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+  }
 }
 
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 
 .res {
   width: 22px;
