@@ -6,4 +6,4 @@
 - red (middle) is solid & liquid
 - green is fully solid (bottom)
 
-- alloys do not have a melting point -- they have a melting range
+- alloys do not have a melting point -- they have a melting 
